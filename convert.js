@@ -6,7 +6,7 @@ var file = './cities.json';
 var cities = [], i = 0, city;
 
 readline.createInterface({
-  input: fs.createReadStream('./cities1000.txt'),
+  input: fs.createReadStream('./GH.txt'),
   output: process.stdout,
   terminal: false
 }).on('line', function(line) {
